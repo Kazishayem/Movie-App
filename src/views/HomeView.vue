@@ -168,9 +168,11 @@ const movieStore = useMovieStore();
   }
 
   .movies-list {
+    
     display: flex;
     flex-wrap: wrap;
-    margin: 0px 8px;
+    margin-left: 19%;
+    
 
 
     .movie {
