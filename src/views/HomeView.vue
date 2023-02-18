@@ -41,7 +41,7 @@ const movieStore = useMovieStore();
     <div class="movies-list">
       <div class="movie" v-for="movie in movieStore.movies" :key="movie.imdbID">
 
-        <router-link to="/movie/" class="movie-link">
+        <router-link :to="{name:'movie-detail' , params:{id: movie.imdbID}}" class="movie-link">
 
           <div class="movie-image">
 
