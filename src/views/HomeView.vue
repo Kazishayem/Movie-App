@@ -49,13 +49,13 @@ const movieStore = useMovieStore();
               :src="movie.Poster"
               alt="">
 
-            <div class="movie-type">{{ movie.type }}</div>
+            <div class="movie-type">{{ movie.Type }}</div>
 
           </div>
 
           <div class="detail">
 
-            <p class="movie-year"> {{ movie.year }}</p>
+            <p class="movie-year"> {{ movie.Year }}</p>
             <h3 class="movie-name">{{ movie.Title }}</h3>
 
           </div>
