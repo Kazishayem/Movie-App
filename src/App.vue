@@ -15,6 +15,12 @@
 
   <main> 
 
+  <div class="container">
+
+
+  
+  </div>
+
     <router-view></router-view>
 
   </main>
@@ -61,6 +67,13 @@ header{
 
 
   }
+}
+
+.container{
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 
